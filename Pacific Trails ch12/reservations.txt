@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content ="Resorts">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel='icon' href='favicon.ico' type= 'image/x-icon'/>
+<link rel ="stylesheet" href="pacific.css">
+<title>Pacific Trails Resort :: Reservations</title>
+</head>
+<body>
+<div id ="wrapper">
+   <header>
+       <h1><a href= "file:///C:/Users/dagas/Desktop/html%20projects/Actual%20stuff/Pacific%20Trails%20ch11/index.html" target="_self"> Pacific Trails Resort</a></h1>
+   </header>
+   <nav>
+<ul>
+     <li> <a href ="index.html">Home</a></li> 
+     <li> <a href="yurts.html">Yurts</a></li>
+     <li> <a href="activities.html">Activities</a></li>
+     <li> <a href="reservations.html">Reservations</a></b></li>
+</ul>
+  </nav>
+<main>
+
+<h2>Reservations</h2>
+<h3>Contact Us Today!</h3><br>
+<p>
+Required fields are marked with *
+</p><br>
+
+
+<form name="ReservationForm" id="ReservationForm" method="post" action"https://webdevbasics.net/scripts/pacific.php">
+    <label>*First Name:<input type="text" name="myFName" id="myFName" required="required"></label><br>
+     <label>*Last Name:<input type="text" name="myLName" id="myLName" required="required"></label><br>
+     <label>*E-Mail:<input type="text" name="myEmail" id="myEmail" required="required"></label><br>
+      <label>Phone Number:<input type="tel" name="PNumber" id="PNumber" maxlength = "12" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label><br>
+     <label>Arrival Date:<input type="date" name="ADate" id="ADate"></label><br>
+      <label>Nights:<input type="number" name="ANights" id="ANights" step="1" min="1" max="14"></label><br>
+   <label>*Comments<textarea name="AComment" id="AComment" required="required" rows="2" cols="30"></textarea></label><br>
+   <input type="submit" value="Submit Form">
+</form>
+
+<div id = "contact">
+12010 Pacific Trails Road <br>
+Zephyr, CA 95555 <br>
+<br>
+888-555-5555
+<br>
+</p> 
+</div>
+</main>
+
+<footer>
+<small><i>Copyright &copy; 2020 Pacific Trails Resort<br></i></small>
+<a href="mailto:dshepard3@my.wctc.edu">dshepard3@my.wctc.edu</a>
+</footer>
+</div></body>
+</html>
